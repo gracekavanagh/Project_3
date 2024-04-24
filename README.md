@@ -102,6 +102,12 @@ To run the project, follow these steps:
 - **Description:** Plot allele frequencies.
 - **Instructions:** Compile and run `allele_frequency.c`, then run `allele_frequency_plots.R` to plot allele frequencies.
 
+### Step 9: Merging AF Values and Wilcoxon Test
+
+- **Script:** `merging_AF_values_and_Wilcoxon_test.R`
+- **Description:** Merge AF values for hybrid population and pure populations and compare them using a Wilcoxon test.
+- **Instructions:** Run the `merging_AF_values_and_Wilcoxon_test.R` script.
+
 ### Files Needed
 
 - `lyrata.fasta.fa`
