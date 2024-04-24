@@ -125,6 +125,42 @@ To run the project, follow these steps:
 
 ### Supervisor
 - Professor Levi Yant
+- 
+
+
+## Data Description
+
+### Input Data
+
+The input data required for this project include:
+
+- `lyrata.fasta.fai`: FASTA file containing reference genome sequences
+- 'arenosa.fasta.fai': FASTA file containing reference genome sequences
+- `Chrom_1_noSnakemake.lyrata.bipassed.dp.m.bt.1pct.vcf.gz`: Variant Call Format (VCF) file containing genetic variants data.
+- Vcf_Name.txt: Text file containing the names of VCF files.
+- pops.txt: Tab-delimited file listing individuals to use and their populations
+- variables.txt: a text file containing the names of files with allele frequency data
+
+
+
+
+### Output Data
+
+The output data generated from this project include:
+
+- PCA plots: Principal Component Analysis plots visualizing the genetic variation of arenosa and lyrata populations.
+- FastStructure results: Population structure analysis results.
+- Adgenet analysis results: Genetic clustering analysis results.
+- Allele frequency plots: Plots visualizing allele frequencies of different populations.
+
+## File Naming Conventions
+
+- All input and output files should follow the specified naming conventions:
+  - `lyrata.fasta.fa`
+  - `Chrom_1_noSnakemake.lyrata.bipassed.dp.m.bt.1pct.vcf.gz`
+
+Please ensure that input files are named correctly and are present in the project directory before running the scripts.
+
 
 ### External Libraries and Tools
 - [FastStructure](https://github.com/rajanil/fastStructure): Anil Raj, Matthew Stephens, and Jonathan K. Pritchard. fastSTRUCTURE: Variational Inference of Population Structure in Large SNP Data Sets, (Genetics) June 2014 197:573-589 [Genetics, Biorxiv]
