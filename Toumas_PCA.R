@@ -3,14 +3,15 @@
 
 #Set-up the environment
 
-install.packages("ggrepel")
+#install.packages("ggrepel")
 
 library(vcfR)
 library(ggplot2)
 library(ggrepel)
 
 # Read the names in the variables file 
-filenames <-readLines("variables.txt")
+#filenames <-readLines("variables.txt")
+filenames <-readLines("Vcf_Name.txt")
 
 # Select only filenames ending in.vcf 
 vcf_files <- filenames[grep("\\.vcf$", filenames)]
